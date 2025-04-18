@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.hero {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  overflow-x: hidden;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lustria", serif; */
+  background: #919191;
+}
+
+.custom-color {
+  background: #bbbbbb;
+}
+
+.custom {
+  gap: 4rem;
+  margin: 0 4rem;
+}
