@@ -23,3 +23,10 @@ html {
   gap: 4rem;
   margin: 0 4rem;
 }
+
+.heroAbout {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

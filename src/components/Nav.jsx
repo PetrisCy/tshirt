@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="bg-gray-900 text-white">
@@ -10,9 +10,15 @@ function Nav() {
         </div>
 
         <div className=" flex-row justify-between w-1/3 hidden lg:flex">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Services</a>
+          <NavLink to="/" className="hover:text-gray-400">
+            Home
+          </NavLink>
+          <NavLink to="/about" className="hover:text-gray-400">
+            About
+          </NavLink>
+          <NavLink to="/services" className="hover:text-gray-400">
+            Services
+          </NavLink>
           <a href="">Contact</a>
         </div>
       </div>
