@@ -19,7 +19,9 @@ function Nav() {
           <NavLink to="/services" className="hover:text-gray-400">
             Services
           </NavLink>
-          <a href="">Contact</a>
+          <NavLink to="/contact" className="hover:text-gray-400">
+            Contact
+          </NavLink>
         </div>
       </div>
     </div>
