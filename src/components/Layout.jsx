@@ -5,11 +5,11 @@ import Footer from "./Footer"; // Import the Footer component
 
 function Layout({ children }) {
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <header>
         <Nav />
       </header>
-      <main>{children}</main>
+      <main style={{ flexGrow: '1' }}>{children}</main>
       <Footer /> {/* Add the Footer component here */}
     </div>
   );
