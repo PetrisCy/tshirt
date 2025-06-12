@@ -11,6 +11,7 @@ html {
   overflow-x: hidden;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Inter", sans-serif; */
   /* font-family: "Lustria", serif; */
   background: #919191;
 }

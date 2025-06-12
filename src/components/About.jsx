@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../assets/about1.png";
-import image2 from "../assets/log.png";
+import image2 from "../assets/lgg.webp";
 function About() {
   return (
     <div className="grid grid-rows-[auto_auto_auto] ">
@@ -21,7 +21,7 @@ function About() {
 
       <div className="grid grid-cols-5 w-full">
         <div className="bg-pink-200 h-96  flex items-center justify-center w-full">
-          <span className="-rotate-90 text-3xl lg:text-5xl italic text-center">
+          <span className="-rotate-90 text-3xl lg:text-5xl italic text-center text-gray-800/80">
             About Us
           </span>
         </div>
