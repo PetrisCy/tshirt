@@ -40,7 +40,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden lg:h-full border-4 ">
+          <div className="custom-color rounded-2xl overflow-hidden h-[300px] lg:h-full border-4 ">
             <img
               src={imageDesign}
               alt="design"
