@@ -10,7 +10,6 @@ function Layout({ children }) {
         <Nav />
       </header>
       <main>{children}</main>
-      <Footer /> {/* Add the Footer component here */}
     </div>
   );
 }
