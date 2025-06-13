@@ -40,7 +40,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden h-[300px] lg:h-full border-4 ">
+          <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
             <img
               src={imageDesign}
               alt="design"
@@ -60,7 +60,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="order-2 lg:order-1 lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden lg:h-full border-4">
+          <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <img
               src={imageClothing}
               alt="clothing"
@@ -122,7 +122,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden lg:h-full border-4">
+          <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <img
               src={imagePromotional}
               alt="gifts"
@@ -141,7 +141,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="order-2 lg:order-1 lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden lg:h-full border-4">
+          <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <img
               src={imageDigital}
               alt="clothing"
@@ -201,7 +201,7 @@ function Sections() {
           viewport={{ once: true, amount: 0.5 }}
           className="lg:h-full"
         >
-          <div className="custom-color rounded-2xl overflow-hidden lg:h-full border-4 ">
+          <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
             <img
               src={imagePaperwork}
               alt="design"
