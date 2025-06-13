@@ -8,6 +8,7 @@ import { HashRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Services from "./components/Services";
+import Test from "./components/test";
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,15 @@ function App() {
         />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Sections />} />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Hero />
+              <Test />
+            </>
+          }
+        />
         <Route path="*" element={<div>404 - Page Not Found</div>} />
       </Routes>
     </Layout>
