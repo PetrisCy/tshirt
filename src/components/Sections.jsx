@@ -41,11 +41,13 @@ function Sections() {
           className="lg:h-full"
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
-            <img
-              src={imageDesign}
-              alt="design"
-              className="w-full h-full object-cover"
-            />
+            <a href="W.pdf" target="_blank" rel="noopener noreferrer">
+              <img
+                src={imageDesign}
+                alt="design"
+                className="w-full h-full object-cover"
+              />
+            </a>
           </div>
         </motion.div>
       </div>
@@ -61,11 +63,13 @@ function Sections() {
           className="order-2 lg:order-1 lg:h-full"
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
-            <img
-              src={imageClothing}
-              alt="clothing"
-              className="w-full h-full object-cover"
-            />
+            <a href="Clothing.pdf" target="_blank" rel="noopener noreferrer">
+              <img
+                src={imageClothing}
+                alt="clothing"
+                className="w-full h-full object-cover"
+              />
+            </a>
           </div>
         </motion.div>
 
@@ -123,11 +127,13 @@ function Sections() {
           className="lg:h-full"
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
-            <img
-              src={imagePromotional}
-              alt="gifts"
-              className="w-full h-full object-cover "
-            />
+            <a href="Promo.pdf" target="_blank" rel="noopener noreferrer">
+              <img
+                src={imagePromotional}
+                alt="gifts"
+                className="w-full h-full object-cover "
+              />
+            </a>
           </div>
         </motion.div>
       </div>
@@ -142,11 +148,13 @@ function Sections() {
           className="order-2 lg:order-1 lg:h-full"
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
-            <img
-              src={imageDigital}
-              alt="clothing"
-              className="w-full h-full object-cover"
-            />
+            <a href="Digital.pdf" target="_blank" rel="noopener noreferrer">
+              <img
+                src={imageDigital}
+                alt="clothing"
+                className="w-full h-full object-cover"
+              />
+            </a>
           </div>
         </motion.div>
 
@@ -202,11 +210,13 @@ function Sections() {
           className="lg:h-full"
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
-            <img
-              src={imagePaperwork}
-              alt="design"
-              className="w-full h-full object-cover"
-            />
+            <a href="Cor.pdf" target="_blank" rel="noopener noreferrer">
+              <img
+                src={imagePaperwork}
+                alt="design"
+                className="w-full h-full object-cover"
+              />
+            </a>
           </div>
         </motion.div>
       </div>

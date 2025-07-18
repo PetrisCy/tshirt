@@ -1,11 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logooo.png";
 function Nav() {
   return (
-    <div className="bg-neutral-950 text-white">
+    <div className="customBG text-white">
       <div className="flex flex-row justify-center lg:justify-between m-auto p-3 lg:max-w-[1400px]  w-full  px-8">
         <div className="flex flex-row gap-4">
-          <a href="">LOGO</a>
+          <a href="">
+            <img src={logo} alt="logo" className="w-14 flex items-center " />
+          </a>
           <h1>We dont just print, we create</h1>
         </div>
 

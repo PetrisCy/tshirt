@@ -31,3 +31,7 @@ html {
   background-size: cover;
   background-position: center;
 }
+
+.customBG {
+  background-color: #414042;
+}
