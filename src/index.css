@@ -15,7 +15,9 @@ html {
   /* font-family: "Lustria", serif; */
   background: #919191;
 }
-
+.custom-color2 {
+  background: #919191;
+}
 .custom-color {
   background: #bbbbbb;
 }

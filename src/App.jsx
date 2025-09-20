@@ -8,8 +8,8 @@ import { HashRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Services from "./components/Services";
-import Test from "./components/test";
-
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     const lenis = new Lenis({
@@ -29,6 +29,7 @@ function App() {
             <>
               <Hero />
               <Sections />
+              <Footer />
             </>
           }
         />
@@ -39,7 +40,8 @@ function App() {
           element={
             <>
               <Hero />
-              <Test />
+              <Contact />
+              <Footer />
             </>
           }
         />

@@ -42,6 +42,9 @@ function Sections() {
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
             <a href="W.pdf" target="_blank" rel="noopener noreferrer">
+              <span className="absolute text-white bg-black bg-opacity-50 p-2 m-2 rounded-lg z-10 ">
+                Click for more
+              </span>
               <img
                 src={imageDesign}
                 alt="design"
@@ -64,6 +67,9 @@ function Sections() {
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <a href="Clothing.pdf" target="_blank" rel="noopener noreferrer">
+              <span className="absolute text-white text-bolded bg-black bg-opacity-50 p-2 m-2 rounded-lg z-10">
+                Click for more
+              </span>
               <img
                 src={imageClothing}
                 alt="clothing"
@@ -128,6 +134,9 @@ function Sections() {
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <a href="Promo.pdf" target="_blank" rel="noopener noreferrer">
+              <span className="absolute text-white text-bolded bg-black bg-opacity-50 p-2 m-2 rounded-lg z-10">
+                Click for more
+              </span>
               <img
                 src={imagePromotional}
                 alt="gifts"
@@ -149,6 +158,9 @@ function Sections() {
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4">
             <a href="Digital.pdf" target="_blank" rel="noopener noreferrer">
+              <span className="absolute text-white text-bolded bg-black bg-opacity-50 p-2 m-2 rounded-lg z-10">
+                Click for more
+              </span>
               <img
                 src={imageDigital}
                 alt="clothing"
@@ -211,6 +223,9 @@ function Sections() {
         >
           <div className="custom-color rounded-2xl overflow-hidden h-[250px] lg:h-full border-4 ">
             <a href="Cor.pdf" target="_blank" rel="noopener noreferrer">
+              <span className="absolute text-white text-bolded bg-black bg-opacity-50 p-2 m-2 rounded-lg z-10">
+                Click for more
+              </span>
               <img
                 src={imagePaperwork}
                 alt="design"
