@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <div
-      className="hero w-full  bg-no-repeat bg-center bg-contain flex items-center justify-center"
+      className="hero w-full bg-no-repeat bg-center bg-contain flex items-center justify-center"
       style={style}
     >
       <motion.div
